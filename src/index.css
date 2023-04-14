@@ -5,8 +5,194 @@
 body{
     background-color: #121216;
     color: #fff;
+    text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.deezerlogo{
-    height: 80px;
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+
 }
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.deezerlogo{
+    height: 24px;
+    margin: auto;
+    padding: 2rem 0;
+}
+.header__title{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.tarjeta{
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+.btn{
+    padding: 0.9rem 6rem;
+    border-radius: 20px;
+    background-color: #131316;
+    color: white;
+    font-weight: 700;
+    margin-top: 1rem;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: #121216;
+}
+p{
+    margin-top: 1rem;
+}
+a{
+    color: rgba(240, 248, 255, 0.713);
+    text-decoration: underline;
+}
+.tarjetitas{
+    margin: 1rem 0;
+    border: solid 1px grey;
+    width: 80%;
+    padding: 0.5rem 0;
+    border-radius: 20px;
+}
+.tarjeta2{
+    background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e);
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+.inciar{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 0.7rem;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #12121600;
+    cursor: pointer;
+}
+.letrerito{
+    padding: 1rem 2rem;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.tarjeta3{
+    background: linear-gradient(180deg,#202122,#3a3b47 55.56%);
+    width: 80%;
+    height: auto;
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.tarjeta4{
+    background: linear-gradient(180deg,#1e1e27,#52525d 55.56%);
+    width: 80%;
+    height: 510px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 16px 16px 8px;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+.mercado-logo{
+    height: 40px;
+    border: 0;
+    padding: 10px;
+}
+
+.tarjetitasRegalo{
+    width: 50%;
+}
+.boton-mercado{
+    padding: 0.9rem 6rem;
+    border-radius: 20px;
+    background-color: #131316;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.boton-mercado:hover{
+    background-color: white;
+    color: #121216;
+}
+#parrafo-final{
+    color: #92929d;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.fondo{
+    background-image: url(../public/img/degradado.png);
+    background-size: contain;
+    position: absolute;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #7a7a7a #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #23232d;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #5c5c5c;
+    border-radius: 10px;
+    border: 2px solid #616161;
+  }
